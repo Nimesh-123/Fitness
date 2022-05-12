@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity13">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bake"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/arrow"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Quads &amp; Deltoids"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="7 Exercrese"
+                android:textColor="#7E7B7B"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="200dp"
+            app:cardBackgroundColor="#000405"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="5dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginBottom="@dimen/_50sdp"
+                app:cardBackgroundColor="#ED4C82"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_add_24" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:text="Exerciese"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="310dp"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="#F8505151"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Pull up"
+                            android:textColor="@color/white"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="30dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="230dp"
+                            android:layout_marginTop="15dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="45dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="230dp"
+                            android:layout_marginTop="25dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="30dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="245dp"
+                            android:layout_marginTop="35dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="60dp"
+                            android:text="5 Sets           10-20 Reps           60 secrest"
+                            android:textColor="#7E7B7B"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                    </FrameLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="420dp"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="#F8505151"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Pull up"
+                            android:textColor="@color/white"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="30dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="230dp"
+                            android:layout_marginTop="15dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="45dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="230dp"
+                            android:layout_marginTop="25dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="30dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="245dp"
+                            android:layout_marginTop="35dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="60dp"
+                            android:text="5 Sets           10-20 Reps           60 secrest"
+                            android:textColor="#7E7B7B"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                    </FrameLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="530dp"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="#F8505151"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Pull up"
+                            android:textColor="@color/white"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="30dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="230dp"
+                            android:layout_marginTop="15dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="45dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="230dp"
+                            android:layout_marginTop="25dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="30dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="245dp"
+                            android:layout_marginTop="35dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="60dp"
+                            android:text="5 Sets           10-20 Reps           60 secrest"
+                            android:textColor="#7E7B7B"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                    </FrameLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="640dp"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="#F8505151"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <FrameLayout
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Pull up"
+                            android:textColor="@color/white"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="30dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="230dp"
+                            android:layout_marginTop="15dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="45dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="230dp"
+                            android:layout_marginTop="25dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="30dp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="245dp"
+                            android:layout_marginTop="35dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="60dp"
+                            android:text="5 Sets           10-20 Reps           60 secrest"
+                            android:textColor="#7E7B7B"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+
+                    </FrameLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="280dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="700dp"
+                    app:cardBackgroundColor="#ED4C82"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:id="@+id/start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="START WORKOUT"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+
+
+    </FrameLayout>
+</LinearLayout>
