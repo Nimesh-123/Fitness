@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity15">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Workout Completed!"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/bake"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/arrow"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_70sdp"
+            android:text="Congratulation"
+            android:textColor="#7E7B7B"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_210sdp"
+        android:src="@drawable/ractangle" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_140sdp"
+        app:cardBackgroundColor="#FFEC0B57"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp">
+
+        <TextView
+            android:id="@+id/dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:gravity="center"
+            android:text="DASHBOARD"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
